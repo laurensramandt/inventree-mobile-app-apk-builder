@@ -3,6 +3,8 @@ InvenTree Android Build Dockerfile
 
 This repository provides a Dockerfile to automate the build process for the InvenTree Android app, resulting in an APK file placed in the output directory.
 
+In the releases section, one can download pre-built APK files, maintained on a best effort basis.
+
 Requirements
 ------------
 
