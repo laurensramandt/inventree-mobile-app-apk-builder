@@ -13,7 +13,7 @@ RUN sudo /env/bin/pip install invoke
 
 # Clean the app directory and clone the Git repository
 RUN rm -rf /app/* \
-    && git clone https://github.com/inventree/inventree-app.git /app
+    && git clone --branch 0.17.2 https://github.com/inventree/inventree-app.git /app
 RUN git config --global --add safe.directory /home/mobiledevops/.flutter-sdk
 # Create a symlink for Python
 RUN sudo ln -s /usr/bin/python3 /usr/bin/python
