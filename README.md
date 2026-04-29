@@ -13,7 +13,7 @@ The official InvenTree mobile app requires a paid download. This tool builds it 
 
 **1. Clone this repository**
 
-    git clone https://github.com/arshmalkana/inventree-apk-builder
+    git clone https://github.com/laurensramandt/inventree-mobile-app-apk-builder
     cd inventree-apk-builder
 
 **2. Build the Docker image**
